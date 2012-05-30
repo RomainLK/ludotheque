@@ -38,6 +38,7 @@
             autoFocusFirst	  : false,
 			// Limit the number of tag possible to add. 0 for infinite.
 			limitTag		  : 0,
+			nbTag: 0,
 			
 
             // When enabled, quotes are not neccesary
@@ -98,7 +99,6 @@
             onTagAdded  : null,
             onTagRemoved: null,
             onTagClicked: null,
-			nbTag: 0,
             onAutocompleteSelected: null
         },
 

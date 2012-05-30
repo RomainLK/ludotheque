@@ -15,7 +15,6 @@ $(function(){
 	    allowSpaces: true,
 	    autoFocusFirst: true,
 	    requireAutocomplete: true,
-	    
 	    tagSource: function(search, showChoices) {
 	        var that = this;
 	        var filter = search.term.toLowerCase();
